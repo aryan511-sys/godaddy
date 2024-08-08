@@ -5,9 +5,9 @@ import '../Navbar/Navbar.css'
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg tw-bg-black" data-bs-theme="dark" >
+      <nav className="navbar navbar-expand-lg background tw-bg-black" data-bs-theme="dark" >
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"><img src={logo} alt="" className='tw-h-10' /> <span className='tw-text-white tw-absolute tw-text-sm -tw-mt-2 tw-block tw-pl-24 tw-font-bold'>India</span></a>
+    <a className="navbar-brand" href="#"><img src={logo} alt="" className='tw-h-10' /> <span className='tw-text-white tw-absolute tw-text-sm -tw-mt-2 tw-block tw-pl-20 tw-font-bold'>India</span></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -98,6 +98,10 @@ function Navbar() {
             Sign In
           </a>
           <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">Action</a></li>
+            <li><a className="dropdown-item" href="#">Another action</a></li>
+            <li><hr className="dropdown-divider" /></li>
+            <li><a className="dropdown-item" href="#">Something else here</a></li>
           </ul>
     </li>
     <li class="nav-item">
